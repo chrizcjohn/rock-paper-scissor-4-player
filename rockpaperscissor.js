@@ -102,6 +102,7 @@ for (var j = 1; j <= 50; j++) {
 
 }
 //print the total point at the end
+console.log()
 console.log('Total point after round 50')
 console.log('player 1: ', player1point)
 console.log('player 2: ', player2point)
