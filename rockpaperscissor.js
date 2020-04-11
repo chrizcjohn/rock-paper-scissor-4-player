@@ -2,7 +2,7 @@
 class play {
     //This function is used to create a random value that is 0(stone) or 1(scissor) or 2(paper) 
     fun() {
-        const inte = Math.floor(Math.random() * 3) // creates a random function 
+        const inte = Math.floor(Math.random() * 3) //this Math.random returns any of three random value which is 0 or 1 or 2 
         if (inte === 0) {
             return 0 // return 0 which is stone
         } else if (inte === 1) {
